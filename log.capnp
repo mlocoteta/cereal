@@ -338,6 +338,7 @@ struct DeviceState @0xa4d8b5af2aa492eb {
   enum NetworkType {
     none @0;
     wifi @1;
+    wifiMetered @7;
     cell2G @2;
     cell3G @3;
     cell4G @4;
